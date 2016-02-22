@@ -14,6 +14,7 @@
 * [Getting Started](#getting-started)
 * [Usage](#usage)
 * [Command Line Interface](#command-line-interface)
+* [Usage as a docker executable](#usage-as-a-docker-executable)
 * [Acknowledgements](#acknowledgements)
 * [Example Images](#example-images)
 * [Example Scripts](#example-scripts)
@@ -147,7 +148,9 @@ Usage: himawari [options]
 ## Usage as a docker executable
 
 If you have docker installed you can also use the cli environment wrapped by a docker container  
+
 ``docker run --rm -v `pwd`:/tmp joergpatz/himawari --help``  
+
 If you would like to generate a video, use `video.sh` (see also example scripts)
 
 ## Acknowledgements
