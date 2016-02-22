@@ -16,5 +16,5 @@ RUN echo "deb http://www.deb-multimedia.org jessie main non-free" >> /etc/apt/so
 
 WORKDIR /tmp
 
-# make container as an executable
+# define container as an executable
 ENTRYPOINT ["/usr/local/bin/himawari"]
