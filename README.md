@@ -144,6 +144,12 @@ Usage: himawari [options]
     --help, -h            Show help
 ```
 
+## Usage as a docker executable
+
+If you have docker installed you can also use the cli environment wrapped by a docker container  
+``docker run --rm -v `pwd`:/tmp joergpatz/himawari --help``  
+If you would like to generate a video, use `video.sh` (see also example scripts)
+
 ## Acknowledgements
 * [Japan Meteorological Agency](http://www.jma.go.jp/)
 * [NICT](http://www.nict.go.jp/)
