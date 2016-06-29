@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [ -f /.dockerinit ]; then
+if [ -f /.dockerinit ] || [ -f /.dockerenv ]; then
 
     cp -r examples/ /usr/local/lib/node_modules/himawari
 
