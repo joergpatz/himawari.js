@@ -11,6 +11,6 @@ if [ -f /.dockerinit ] || [ -f /.dockerenv ]; then
 
 else
 
-    docker run --rm -v `pwd`:/tmp -it --entrypoint ./video.sh joergpatz/himawari
+    docker run --rm -v `pwd`:/tmp --entrypoint ./video.sh joergpatz/himawari
 
 fi

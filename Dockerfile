@@ -2,8 +2,8 @@ FROM node:4.3.1
 MAINTAINER Joerg Patzer <joerg.patzer@me.com>
 
 RUN echo "deb http://www.deb-multimedia.org jessie main non-free" >> /etc/apt/sources.list \
-    && wget https://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2015.6.1_all.deb \
-    && dpkg -i deb-multimedia-keyring_2015.6.1_all.deb \
+    && wget https://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.3.7_all.deb \
+    && dpkg -i deb-multimedia-keyring_2016.3.7_all.deb \
     && apt-get update \
     && apt-get install -y \
         imagemagick \
